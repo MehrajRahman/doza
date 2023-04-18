@@ -292,7 +292,7 @@ body {
   padding: 1rem 3rem;
   margin-bottom: 2rem;
 }
-
+/* 
 .contact .form-container form input,
 textarea {
   height: 4.5rem;
@@ -303,8 +303,8 @@ textarea {
   border: none;
   outline: none;
   color: #333;
-}
-
+} */
+/* 
 .contact .form-container form .inputBox {
   display: flex;
   justify-content: space-between;
@@ -335,7 +335,7 @@ textarea {
 
 .contact .form-container form input[type="submit"]:hover {
   opacity: 0.8;
-}
+} */
 
 .footer {
   background: #333;
@@ -473,6 +473,11 @@ textarea {
 
   .header .nav-toggle {
     right: 0%;
+  }
+
+  .project .box-container .box {
+    height: 30rem;
+    width: 40rem;
   }
 }
 
