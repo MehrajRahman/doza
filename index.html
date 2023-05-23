@@ -22,6 +22,16 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css"
     />
 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <!-- <title>Bootstrap Example</title> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- TRY -->
     <!-- <script
       src="https://code.jquery.com/jquery-2.2.0.min.js"
@@ -40,14 +50,14 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="./style.css" />
 
-    <title>DOZA ARCHITECTS</title>
+    <title>DOZA ASSOCIATES</title>
   </head>
   <body>
     <!-- header section starts  -->
 
     <header class="header fixed-top">
       <!-- <a href="#"><h2  class="logo">DOZA</h2></a> -->
-      <h2 class="logo">DOZA</h2>
+      <h2 class="logo">DOZA ASSOCIATES</h2>
 
       <nav>
         <ul>
@@ -69,32 +79,15 @@
     <section id="home" class="home container-fluid p-0">
       <div class="row hero">
         <div class="col pl-3 ml-sm-5 p-0">
-          <h1 class="text1">Interior Design</h1>
-          <h3 class="text2">DOZA ARCHITECTS</h3>
+          <h1 class="text1">DOZA ASSOCIATES</h1>
+          <h3 class="text2">
+            Providing reliable project design, implementation and management for
+            organizations in Bangladesh
+          </h3>
         </div>
       </div>
 
-      <div class="counting">
-        <div class="box">
-          <h1 class="count" data-count="1200">1200+</h1>
-          <h3>working hours</h3>
-        </div>
-
-        <div class="box">
-          <h1 class="count" data-count="15">15+</h1>
-          <h3>awards</h3>
-        </div>
-
-        <div class="box">
-          <h1 class="count" data-count="1000">1000+</h1>
-          <h3>clients</h3>
-        </div>
-
-        <div class="box">
-          <h1 class="count" data-count="840">840+</h1>
-          <h3>projects</h3>
-        </div>
-      </div>
+      <!--  -->
     </section>
 
     <!-- home section ends -->
@@ -295,8 +288,7 @@
       id="project"
       class="tm-section services-area tm-padding-section bg-white p-5"
     >
-      <div class="container p-5">
-        <hr />
+      <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 col-md-10 col-12">
             <h2 class="heading pb-5">Our Projects</h2>
@@ -304,19 +296,90 @@
         </div>
         <div class="row services-wrap-2">
           <!-- Single Projects -->
-          <div class="card col-lg-6 col-md-6 col-sm-6 col-12 wow p-5">
-            <div class="card-body">
-              <div class="flex">
-                <img
-                  class="card-img-top"
-                  src="./images/projects/img_pr1.png"
-                  alt="Card image cap"
-                />
-              </div>
-              <div class="card-body">
-                <h1 class="card-title text-center font-weight-bold">
-                  Banani Project
-                </h1>
+          <div class="card col-lg-6 col-md-6 col-sm-6 col-12 b-none wow">
+            <div class="accordion m-0 p-0" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button font-weight-bold h2"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    <h1 class="font-weight-bold">
+                      Phase I : Design & Implementation
+                    </h1>
+                  </button>
+                </h2>
+
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body d-flex justify-content-center">
+                    <img
+                      width="90%"
+                      src="./images/projects/project_banani.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="accordion-body">
+                    <h2 class="font-weight-bold pt-4">
+                      Total Renovation – Interior at Road -9, Block- H, Banani,
+                      Dhaka.
+                    </h2>
+                    <ul class="pt-4">
+                      <li>
+                        <p class="h3 text-muted font-weight-bold">
+                          Architecture & design
+                        </p>
+                      </li>
+                      <li>
+                        <p class="h3 text-muted font-weight-bold">
+                          working drawings
+                        </p>
+                      </li>
+                      <li>
+                        <p class="h3 text-muted font-weight-bold">
+                          writing of tender document
+                        </p>
+                      </li>
+                      <li>
+                        <p class="h3 text-muted font-weight-bold">
+                          pre-qualification contractors
+                        </p>
+                      </li>
+                      <li>
+                        <p class="h3 text-muted font-weight-bold">
+                          tendering & selection of contractor
+                        </p>
+                      </li>
+                      <li>
+                        <p class="h3 text-muted font-weight-bold">
+                          design of HVAC system
+                        </p>
+                      </li>
+                      <li>
+                        <p class="h3 text-muted font-weight-bold">
+                          total project & quality management
+                        </p>
+                      </li>
+                      <li>
+                        <p class="h3 text-muted font-weight-bold">
+                          electrical design & implementation
+                        </p>
+                      </li>
+                      <li>
+                        <p class="h3 text-muted font-weight-bold">
+                          total budget control & supervision.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -325,208 +388,33 @@
 
           <!-- Single Projects -->
           <div class="card col-lg-6 col-md-6 col-sm-6 col-12 wow p-5">
-            <div class="card-body">
-              <div class="flex">
-                <img
-                  class="card-img-top"
-                  src="./images/projects/img_pr2.png"
-                  alt="Card image cap"
-                />
-              </div>
+            <a href="#">
               <div class="card-body">
-                <h1 class="card-title text-center font-weight-bold">
-                  Banani Project
-                </h1>
+                <div class="flex project-img-container">
+                  <img
+                    class="card-img-top projects-img"
+                    src="./images/projects/img_pr2.png"
+                    alt="Card image cap"
+                  />
+                </div>
+                <div class="card-body">
+                  <h1
+                    class="card-title text-dark text-decoration-none font-weight-bold"
+                  >
+                    Banani Project
+                  </h1>
+                  <button class="btn-secondary btn text-center">
+                    <h3>See Details ...</h3>
+                  </button>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
 
           <!--// Single Service -->
         </div>
       </div>
     </div>
-    <!-- <section id="" class="container pb-5 mb-5">
-      <h2 class="heading pb-5">Our Projects</h2>
-      <div class="main-container">
-        <div class="grid-container">
-          <div class="card card__2x">
-            <div class="card__content big-script padding-large">
-              <p>Classical Interior Design</p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__image">
-              <img src="./images/projects/a1.jpeg" />
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__image">
-              <img src="./images/projects/a2.jpeg" />
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__content">
-              <p>
-                <em
-                  >Travel is fatal to prejudice, bigotry, and
-                  narrow-mindedness.</em
-                >
-              </p>
-              <p>— Mark Twain</p>
-            </div>
-          </div>
-          <div class="card card__horizontal">
-            <div class="card__image">
-              <img src="./images/projects/a12.jpeg" />
-            </div>
-          </div>
-          <div class="card card__featured">
-            <div class="card__side-by-side__m">
-              <div class="card__image">
-                <img src="./images/imgtry.jpeg" />
-              </div>
-              <div class="card__content padding-large__l">
-                <h2>Quisque volutpat.</h2>
-                <p>
-                  Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in,
-                  nibh. Quisque volutpat condimentum velit.
-                </p>
-
-                <div class="card__button">More...</div>
-              </div>
-            </div>
-          </div>
-          <div class="card card__vertical">
-            <div class="card__image">
-              <img src="./images/projects/a13.jpeg" />
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__image">
-              <img src="./images/projects/a13.jpeg" />
-            </div>
-          </div>
-          <div class="card card__horizontal">
-            <div class="card__side-by-side">
-              <div class="card__image">
-                <img src="./images/projects/a7.jpeg" />
-              </div>
-              <div class="card__content">
-                <h3>Lorem ipsum</h3>
-                <p>
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="card card__vertical">
-            <div class="card__image">
-              <img src="./images/projects/b3.jpeg" />
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__image">
-              <img src="./images/projects/a4.jpeg" />
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__content">
-              <p>
-                <em
-                  >We wander for distraction, but we travel for fulfilment.</em
-                >
-              </p>
-              <p>— Hilaire Belloc</p>
-            </div>
-          </div>
-          <div class="card card__2x">
-            <div class="card__image">
-              <img src="./images/projects/a5.jpeg" />
-            </div>
-          </div>
-          <div class="card card__horizontal card__frameless">
-            <div class="card__content big-script">
-              <p>Bon voyage</p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__image">
-              <img src="./images/projects/a13.jpeg" />
-            </div>
-          </div>
-          <div class="card card__horizontal">
-            <div class="card__image">
-              <img src="./images/projects/a9.jpeg" />
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__image"><img src="./images/projects/a14.jpeg"</div>
-          </div>
-          <div class="card">
-            <div class="card__content">
-              <p>
-                <em
-                  >A good traveller has no fixed plans and is not intent on
-                  arriving.</em
-                >
-              </p>
-              <p>— Lao Tzu</p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__image">
-              <img src="./images/projects/a13.jpeg" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- project section starts   -->
-
-    <!-- <section id="project" class="project">
-      <div class="heading">our projects</div>
-
-      <div class="box-container mx-auto">
-        <div class="box">
-          <a href="./images/img-2.jpg" title="house">
-            <div><img src="./images/img-2.jpg" alt="" /></div>
-            <div><img src="./images/img-2.jpg" alt="" /></div>
-            <div><img src="./images/img-2.jpg" alt="" /></div>
-          </a>
-        </div>
-
-        <div class="box">
-          <a href="./images/img-3.jpg" title="hall">
-            <img src="./images/img-3.jpg" alt="" />
-          </a>
-        </div>
-
-        <div class="box">
-          <a href="./images/img-4.jpg" title="pole">
-            <img src="./images/img-4.jpg" alt="" />
-          </a>
-        </div>
-
-        <div class="box">
-          <a href="./images/img-5.jpg" title="kitchen">
-            <img src="./images/img-5.jpg" alt="" />
-          </a>
-        </div>
-
-        <div class="box">
-          <a href="./images/img-6.jpg" title="bath">
-            <img src="./images/img-6.jpg" alt="" />
-          </a>
-        </div>
-
-        <div class="box">
-          <a href="./images/img-2.jpg" title="toilet">
-            <img src="./images/img-2.jpg" alt="" />
-          </a>
-        </div>
-      </div>
-    </section> -->
 
     <!-- project section ends -->
 
@@ -639,7 +527,7 @@
 
         <div class="contact-box">
           <i class="fas fa-envelope"></i>
-          <h3>dozaassociates@gmail.com</h3>
+          <h3><p class="text-lowercase">dozaassociates@gmail.com</p></h3>
         </div>
 
         <div class="contact-box">
@@ -685,16 +573,19 @@
           </div>
         </div>
 
-        <div class="col-md-3 text-center text-md-left letter">
-          <h2>newsletter</h2>
+        <div class="col-md-3 text-center text-md-left letter text-white pt-5">
+          <!-- <h2>newsletter</h2>
           <p>subscribe for latest updates</p>
           <input type="email" placeholder="enter your email" />
-          <input type="submit" placeholder="subscribe" />
+          <input type="submit" placeholder="subscribe" /> -->
+          <h1>| Doza</h1>
+          <h1>| Associates</h1>
         </div>
       </div>
 
       <h1 class="credit">
-        created by <span>DOZA</span> | all rights reserved.
+        created by <span class="text-secondary">DOZA</span> | all rights
+        reserved.
       </h1>
     </section>
 
