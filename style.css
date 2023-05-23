@@ -767,6 +767,7 @@ textarea {
   .home .hero .text1 {
     font-size: 3.5rem;
     width: 33rem;
+    text-align: center;
   }
   .home .hero .text2 {
     font-size: 2.5rem;
