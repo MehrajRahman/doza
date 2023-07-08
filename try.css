@@ -1,0 +1,37 @@
+.circle {
+  height: 500px;
+  width: 500px;
+  z-index: 1;
+  position: relative;
+  margin-top: 60px;
+}
+
+dl {
+  z-index: 2;
+  position: relative;
+  top: -365px;
+  left: 130px;
+  list-style-type: none;
+}
+dd {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: #ffff66;
+  border-radius: 50%;
+  padding: 5px;
+  overflow: hidden;
+  display: table;
+
+  span {
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 12px;
+    font-size: 12px;
+    vertical-align: middle;
+    display: table-cell;
+  }
+}
