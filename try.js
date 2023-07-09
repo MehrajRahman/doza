@@ -1,23 +1,11 @@
-var type = 1, //circle type - 1 whole, 0.5 half, 0.25 quarter
-  radius = "190px", //distance from center
-  start = -90, //shift start from 0
-  $elements = $("dd:not(:first-child)"),
-  numberOfElements = type === 1 ? $elements.length : $elements.length - 1, //adj for even distro of elements when not full circle
-  slice = (360 * type) / numberOfElements;
-
-$elements.each(function (i) {
-  var $self = $(this),
-    rotate = slice * i + start,
-    rotateReverse = rotate * -1;
-
-  $self.css({
-    transform:
-      "rotate(" +
-      rotate +
-      "deg) translate(" +
-      radius +
-      ") rotate(" +
-      rotateReverse +
-      "deg)",
-  });
+VANTA.GLOBE({
+  el: "#vantajs",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.0,
+  minWidth: 200.0,
+  scale: 1.0,
+  scaleMobile: 1.0,
+  color: 0x65c7f7,
 });

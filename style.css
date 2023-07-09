@@ -152,10 +152,16 @@ body {
   padding-bottom: 3rem;
 }
 
-#mission {
+.mission {
   min-height: 60vh;
   padding-bottom: 3rem;
   text-align: center;
+}
+.mission .info .tst {
+  background: rgba(0, 2, 36, 0.644);
+  /* color: white;
+   */
+  padding: 3rem;
 }
 .line-right {
   border-right: 3px solid white;

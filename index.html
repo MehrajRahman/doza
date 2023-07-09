@@ -130,44 +130,49 @@
     <!-- about section ends -->
 
     <!-- OUR MISSION AND VISION STARTS -->
-    <section id="mission" class="about strength-area pt-4">
+    <section id="globe" class="mission about strength-area pt-4">
       <div class="row align-items-center">
         <div class="col-md-6 info line-right text-center">
           <h2 class="text-white">Our Mission</h2>
           <hr class="text-white" />
 
-          <h3 class="text-white font-weight-bold pt-4">
-            Imagine || Innovate || Implement
-          </h3>
-          <p></p>
-          <p>
-            Our core ideology of providing perfect sanctuaries has been the
-            driving force of our mission to acquire a distinguished position in
-            the world.Our differentiation is based on our ability to innovate,
-            based on a customer-centric approach and feedback. We ensure that
-            our clients get truly international quality and amenities in a
-            natural eco-friendly environment.We wish to be known by anyone in
-            the world, as the ideal creator of unprecedented superior
-            lifestyles.
-          </p>
+          <div class="tst">
+            <h3 class="text-white font-weight-bold pt-4">
+              Imagine || Innovate || Implement
+            </h3>
+            <p></p>
+            <p class="text-white">
+              Our core ideology of providing perfect sanctuaries has been the
+              driving force of our mission to acquire a distinguished position
+              in the world.Our differentiation is based on our ability to
+              innovate, based on a customer-centric approach and feedback. We
+              ensure that our clients get truly international quality and
+              amenities in a natural eco-friendly environment.We wish to be
+              known by anyone in the world, as the ideal creator of
+              unprecedented superior lifestyles.
+            </p>
+          </div>
         </div>
 
         <div class="col-md-6 info">
           <h2 class="text-white">Our Vision</h2>
           <hr class="text-white" />
-          <p>
-            We are building, brick by brick, a future of architectural
-            excellence. Providing secure, eco-friendly and self-sufficient
-            lifestyles.
-          </p>
-          <p>
-            We aim to develop prime pockets of land to build exemplary
-            properties that are benchmarks in quality.
-          </p>
-          <p>
-            This obsession with quality, customer satisfaction and lifestyle
-            enhancement is what we plan to carry across various verticals.
-          </p>
+
+          <div class="tst">
+            <p class="text-white">
+              We are building, brick by brick, a future of architectural
+              excellence. Providing secure, eco-friendly and self-sufficient
+              lifestyles.
+            </p>
+            <p class="text-white">
+              We aim to develop prime pockets of land to build exemplary
+              properties that are benchmarks in quality.
+            </p>
+            <p class="text-white">
+              This obsession with quality, customer satisfaction and lifestyle
+              enhancement is what we plan to carry across various verticals.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -329,7 +334,7 @@
 
     <!-- Project Management executation philosophy START HERE  -->
 
-    <section id="" class="container">
+    <section class="container">
       <h1 class="heading">Why Choose Us</h1>
 
       <div class="row align-items-center">
@@ -522,7 +527,7 @@
 
     <!-- Our Strength start here -->
     <div
-      id="project"
+      id="vantajs"
       class="tm-section services-area strength-area tm-padding-section p-5 mt-5"
     >
       <div class="pt-5">
@@ -1060,6 +1065,45 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
     <!-- main/custom javascript file link  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.net.min.js"></script>
+    <!-- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.globe.min.js "></script>
+
+    <script type="text/javascript">
+      VANTA.NET({
+        el: "#vantajs",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0x6fc9e6,
+        // rgba(126, 252, 252, 0.651)
+        // color: 0x6fc9e6,
+        backgroundColor: 0x52d,
+        points: 15.0,
+        maxDistance: 25.0,
+        spacing: 16.0,
+      });
+      VANTA.GLOBE({
+        el: "#globe",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0x9d9ea4,
+        color2: 0x9b9b9b,
+        size: 0.8,
+        backgroundColor: 0x9002f,
+      });
+    </script>
     <script src="/main.js"></script>
   </body>
 </html>
