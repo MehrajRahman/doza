@@ -431,7 +431,70 @@ New Project CSS
 .project .box-container .box:hover img {
   transform: scale(1.3);
 } */
+.img-body1 {
+  background: linear-gradient(
+      45deg,
+      rgba(0, 10, 37, 0.829),
+      rgba(1, 51, 97, 0.815)
+    ),
+    url("images/methodology/fnstrngth.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.img-body2 {
+  background: linear-gradient(
+      45deg,
+      rgba(0, 10, 37, 0.829),
+      rgba(1, 51, 97, 0.815)
+    ),
+    url("images/methodology/mnpwr.jpg");
+  background-position: center;
+  background-size: cover;
+}
 
+.img-body3 {
+  background: linear-gradient(
+      45deg,
+      rgba(0, 10, 37, 0.829),
+      rgba(1, 51, 97, 0.815)
+    ),
+    url("images/methodology/mchnry.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.img-body4 {
+  background: linear-gradient(
+      45deg,
+      rgba(0, 10, 37, 0.829),
+      rgba(1, 51, 97, 0.815)
+    ),
+    url("images/methodology/qlty.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.img-body5 {
+  background: linear-gradient(
+      45deg,
+      rgba(0, 10, 37, 0.829),
+      rgba(1, 51, 97, 0.815)
+    ),
+    url("images/methodology/sfty.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.img-body6 {
+  background: linear-gradient(
+      45deg,
+      rgba(0, 10, 37, 0.829),
+      rgba(1, 51, 97, 0.815)
+    ),
+    url("images/methodology/comtmnt.jpg");
+  background-position: center;
+  background-size: cover;
+}
 .contact {
   min-height: 60vh;
 }
